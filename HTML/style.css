@@ -1,0 +1,32 @@
+body{
+    background : whitesmoke;
+    text-align: center;
+}
+div{
+    color : white;
+    background : darkkhaki;
+    border: 2px solid black;
+    padding : 5px;
+    margin : 10px;
+}
+p{
+    font-size: 22px;
+    color : white;
+    background : darkgoldenrod;
+}
+#blog div h1 {
+  color: blue;
+}
+#blog > h1 {
+  color: green;
+}
+#blog > div > h1{
+  color: red;
+}
+a{
+    font-size: 18px;
+    color: blue;
+}
+a:hover {
+  color:darkblue;
+}
