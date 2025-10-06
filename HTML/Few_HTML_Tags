@@ -112,12 +112,12 @@ This displays in the web browser as:
 Lists can also be ordered using the <ol> tag. Again, list items are specified using the <li> tag.
 
 <ol>
-   <li>Rocky</li>
+   <li>Rocky I</li>
    <li>Rocky II</li>
    <li>Rocky III</li>
 </ol>
 This displays as the following in the web browser.
-1. Rocky
+1. Rocky I
 2. Rocky II
 3. Rocky III
 
@@ -131,34 +131,33 @@ The following example shows a <div> element that contains a paragraph element:
    <p>This is a paragraph inside a div</p>
 </div>
 This displays as the following in the web browser.
-*This is a paragraph inside a div*
-
+*This is a paragraph inside a div* 
 It can be nested inside other elements, for example:
 
 <div>
    <div>
-      <p>This is a paragraph inside a div that’s inside another div</p>
+      <p>This is a paragraph inside a div that's inside another div</p>
    </div>
 </div>
 This displays in the web browser as:
-*This is a paragraph inside a div that’s inside another div*
+*This is a paragraph inside a div that's inside another div*
 
 As mentioned, the div has no impact on content unless it is styled by CSS. 
-Let’s add a small CSS rule that styles all divs on the page.
+Let's add a small CSS-rule that styles all divs on the page.
 Don't worry about the meaning of the CSS just yet, you'll explore CSS further in a later lesson. 
 In summary, you're applying a rule that adds a border and some visual spacing to the element.
 
 <style>
    div {
       border: 1px solid black;
-      padding: 2px;
+      padding: 2px;/*space between text and border*/   
    }
 </style>
 <div>
    <div>
       <p>This is a paragraph inside stylized divs</p>
    </div>
-
+</div>
 This displays in the web browser as:
 *This is a paragraph inside stylized divs* (with a border around it)
 Div elements are an important part of building webpages. 
