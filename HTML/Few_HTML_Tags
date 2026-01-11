@@ -219,3 +219,18 @@ A form is defined using the <form> tag.
    <input type="submit" value="Submit">
 </form>
 This creates a form with two input fields (name and email) and a submit button.
+
+<a href = "" target = "_blank">Click here to go to the next page</a>
+<!-- The target="_blank" attribute makes the link open in a new tab -->
+<a href = "" target = "_self">Click here for the solution page</a>
+<!-- The target="_self" attribute makes the link open in the same tab -->
+
+
+<!-- DIFFERENCE BETWEEN ANCHOR TAG AND LINK TAG -->
+The <a> (anchor) tag is used to create hyperlinks that link to other web pages, files, 
+locations within the same page, email addresses, or any other URL, displayed on screen 
+for user interaction.
+The <link> tag is used to define the relationship between the current document and an 
+external resource. The URL provided in href of link tag tells browser to fetch that locations
+and the rel tells how to use it, not displayed on the screen for user interaction.
+For example, the <link> tag is commonly used to link to external style sheets.
