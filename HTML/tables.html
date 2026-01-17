@@ -6,6 +6,67 @@
     <title>Tables in HTML</title>
 </head>
 <body>
-    
+    <table border="">
+        <caption>
+            It's is my Table demonstration.
+        </caption>
+        <colgroup>
+            <!-- used for layout editing like cell width and highlighting, not for typography -->
+            <!-- each <col> tag represents a column. -->
+            <col><!-- leaving this empty means no editing in the first column-->
+            <col style="background-color:lightcoral;">
+            <col span="2" style="background-color:greenyellow;">
+            <col>
+        </colgroup>
+        <!-- tr : table row -->
+        <thead>
+            <!-- thead : table header -->
+            <tr>
+                <!-- th : table heading -->
+                <th>Col-1</th>
+                <th>Col-2</th>
+                <th>Col-3</th>
+                <th>Col-4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- tbody : table body -->
+            <tr>
+                <!-- td : table data -->
+                <!-- <rowspan = "x"> and <colspan = "x"> are tags where a particular row or a column is spanned to x number of rows and columns respectively.-->
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- tfoot : table footer -->
+            <tr>
+                <td>ran</td>
+                <td>dom</td>
+                <td>num</td>
+                <td>bers</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
