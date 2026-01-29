@@ -1,0 +1,29 @@
+main{
+    border: 4px solid rgba(255, 128, 0, 0.586);
+    border-radius:2%;
+    width:50%;
+}
+section{
+    border:4px dotted green;
+    width: 70vw;
+}
+/* vw will always give the %width according to the browser window width no matter whatever width the parent has.
+
+Whereas, % gives width relative to the size of its parent.*/
+
+/* em and rem
+em:
+they give sizes relative to their parent's size;
+if parent size is 5px and child's size is 2em then child is given 10 px of size. If some spacing is being used like padding, width, margin etc. then em is used relative to the child's size only. Like, 
+
+child has a margin of 2 em then it is 20px because size of child is 10px.
+
+
+rem:
+it gives size and spacing all things relative to the font-size of the root(i.e. html)
+by default 
+html{
+font-size=1em(=32 px)
+}
+any element's size/spacing = 2 rem means it is equal to 64 px;
+*/
